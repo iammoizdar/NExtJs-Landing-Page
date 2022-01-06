@@ -1,7 +1,6 @@
 import React from 'react'
 import { EventsWrapper } from './Events.styles'
-import { EventsHeading } from './Events.styles'
-import CalendarImg from "../../assets/images/Calendaricon1.png"
+import CalendarImg from "../../assets/images/CalendarIcon1.png"
 import CalendarImg2 from "../../assets/images/Calendaricon2.png"
 import EventsCard from './EventsCard'
 import { EventCardHolder } from './Events.styles'

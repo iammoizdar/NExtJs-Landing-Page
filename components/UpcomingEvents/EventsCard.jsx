@@ -21,7 +21,7 @@ return (
     <LastInfo>
         <LearnMore>
             <span>{prop.link}</span>
-            <Image src={Arrows}alt='Arros' />
+            <Image src={Arrows}alt='Arrows' />
         </LearnMore>
             <span className='date'>{prop.date}</span>
     </LastInfo>
