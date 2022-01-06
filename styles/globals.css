@@ -19,7 +19,41 @@ a {
 .container {
   width: 100%;
   max-width: 1440px;
-  padding: 16px 24px;
+  padding: 16px 50px;
   margin: auto;
+
+}
+
+.rec-carousel-wrapper {
+  grid-gap: 60px;
+  max-width: 1440px;
+}
+
+.rec.rec-pagination {
+  gap: 12px;
+}
+
+.rec.rec-dot {
+  background: #7C7C7C;
+  opacity: 0.6;
+  width: 8px;
+  height: 8px;
+}
+
+.rec.rec-dot_active {
+  background: var(--secondary);
+  opacity: 1;
+  outline: none;
+  border: none;
+
+  box-shadow: none;
+}
+
+.rec.rec-dot_active:focus {
+  box-shadow: 0 0 1px 3px rgb(113 124 255);
+}
+
+.rec.rec-dot_active:hover {
+  box-shadow: 0 0 1px 3px rgb(113 124 255);
 
 }

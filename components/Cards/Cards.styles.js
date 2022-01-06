@@ -36,4 +36,12 @@ export const Icon = styled.div `
 export const LearnMore = styled.div `
 display: flex;
 align-items:center;
+  a{
+        color: var(--secondary);
+        font-size: 15px;
+        font-weight: 600;
+        display: flex;
+        align-items:center;
+    }
+
 `

@@ -1,12 +1,17 @@
 import React from 'react'
 import { ServicesWrapper } from './OurServices.styles'
 import ServicesCardsSection from '../ServicesCardsSection'
+import { ServicesHeading } from './OurServices.styles'
+import { TopHeading } from '../NewsSection/News'
 const OurServices = () => {
     return (
         <ServicesWrapper>
-            <h3>Our Services</h3>
-            <p className='servicespargraph'>Executive Trade International is an University Application Centre, guiding Pakistani <br /> students to Australian, British, Canadian and Irish universities!</p>
-
+            <div className="container">
+                <ServicesHeading>    
+                    <TopHeading textTitle="Our Services" description="Executive Trade International is an University Application Centre, guiding Pakistani students to Australian, British, Canadian and Irish universities!"/>      
+        
+</ServicesHeading> 
+</div>
             <ServicesCardsSection/>
         </ServicesWrapper>
     )

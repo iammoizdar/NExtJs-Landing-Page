@@ -12,7 +12,8 @@ const Cards = (data) => {
             <h2>{data.Title}</h2>
             <p>{data.details}</p>
             <LearnMore>
-            <span>{data.link}</span> <Image src={Arrows}alt=''/>
+            <a>{data.link}</a> 
+        <Image src={Arrows}alt=''/>
             </LearnMore>
         </Card>
     )

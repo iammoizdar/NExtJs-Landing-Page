@@ -6,8 +6,11 @@ export const CardsWrapper = styled.div `
     width: 100%;
     flex-direction: column;
     grid-gap: 50px;
+   
 `
 export const CardsHolder = styled.div `
 display: flex;
 justify-content: space-evenly;
+flex-wrap: wrap;
+grid-gap: 24px;
 `
