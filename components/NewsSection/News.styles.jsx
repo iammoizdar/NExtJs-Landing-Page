@@ -19,13 +19,13 @@ export const Details = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 280px;
-
+    font-family: 'Montserrat';
     span{
         color: #565656;
         font-size: 14px;
         font-weight: 600;
     }
-    h4{
+    {
         font-size: 20px;
         color: #252525;
     }
@@ -44,7 +44,7 @@ export const NewsCardWrapper = styled.div`
     flex-direction: column;
     display: flex;
     align-items: center;
-
+        
   
 }
   
@@ -64,7 +64,7 @@ export const NewsCardHeading =styled.div`
    align-items: center;
    flex-direction: column;
    text-align: center;
-
+    grid-gap: 12px;
 
    h3{
         color: var(--secondary-text-color);

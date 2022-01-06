@@ -31,7 +31,7 @@ const News = () => {
             <NewCards img={Thumbnail2} date="17 Apr 2020" text="Trump Lays Plans to Reverse Obama’s Climate Change Legacy"/>
             <NewCards img={Thumbnail3} date="17 Apr 2020" text="How a Little Bit of Hydra Regrows a Whole Animal"/>
             </NewsCardHolder>
-            <Button>Join Here <Image src={Arrows}alt='Arrow'/></Button>
+            <Button large>Join Here <Image src={Arrows}alt='Arrow'/></Button>
              </div>
         </NewsCardWrapper>
     )

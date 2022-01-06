@@ -5,7 +5,7 @@ export const Button = styled.a `
   background-color: var(--secondary);
   color: #fff;
   border-radius: 10px;
-  max-width: 224px;
+  max-width: ${(props) => (props.large ? "324px" : "224px")};
   margin-top: -18px;
   cursor: pointer;
   display: flex;

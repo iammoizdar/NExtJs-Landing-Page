@@ -8,6 +8,7 @@ import { ServicesWrapper } from './OurServices/OurServices.styles'
 import NewsSection from './NewsSection'
 import UpcomingEvents from './UpcomingEvents'
 import CountriesCovered from './CountriesCovered'
+import Testimonials from './Testimonials'
 const Layout = ({children}) => {
     return (
         <>
@@ -20,6 +21,7 @@ const Layout = ({children}) => {
         <NewsSection/>
         <UpcomingEvents/>
         <CountriesCovered/>
+        <Testimonials/>
         {/* <Footer/> */}
         </>
         )

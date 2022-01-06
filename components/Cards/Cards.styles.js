@@ -9,6 +9,8 @@ export const Card = styled.div `
     box-shadow: 0px 0px 77px 0px rgba(0,0,0,6%);
     min-height: 424px;
     padding: 0 30px;
+    font-family: "Montserrat";
+    cursor: pointer;
     h2{
         font-size: 24px;
         color: #37474F;

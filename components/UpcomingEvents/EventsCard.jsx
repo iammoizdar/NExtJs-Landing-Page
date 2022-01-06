@@ -20,7 +20,7 @@ return (
     <p>{prop.desc}</p>
     <LastInfo>
         <LearnMore>
-            <span>{prop.link}</span>
+            <a>{prop.link}</a>
             <Image src={Arrows}alt='Arrows' />
         </LearnMore>
             <span className='date'>{prop.date}</span>
