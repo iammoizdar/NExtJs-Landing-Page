@@ -9,7 +9,7 @@ export const Logo = styled.div `
 export const NavbarWrapper = styled.div `
   display: flex;
 
-  ul{
+  .nav{
     display: flex;
     width: 100%;
     list-style: none;
@@ -20,6 +20,15 @@ export const NavbarWrapper = styled.div `
       color: var(--text-color-brown);
       font-weight: 500;
     }
+     @media (max-width: 1024px) {
+    display: none;
+  }
+  }
+  .hamburger-menu{
+    display: none;
+    @media (max-width: 1024px) {
+    display: block;
+  }
   }
 `;
 
