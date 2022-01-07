@@ -15,7 +15,7 @@ export const NavbarWrapper = styled.div `
     list-style: none;
     justify-content: end;
     align-items: center;
-    gap: 77px;
+    gap: 68px;
     li{
       color: var(--text-color-brown);
       font-weight: 500;

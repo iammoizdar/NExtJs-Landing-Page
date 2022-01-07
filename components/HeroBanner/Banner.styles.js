@@ -8,7 +8,7 @@ export const StyledBanner = styled.div `
 `
 export const BannerImage = styled.div `
    display: flex;
-   width: 50%;
+   width: 40%;
    justify-content:end;
 `
 export const BannerHeading = styled.div `
@@ -26,7 +26,7 @@ export const BannerWrapper = styled.div `
   width: 100%;
   display: flex;
   justify-content: center;
-width: 50%;
+width: 60%;
 align-items: center;
 `
 export const Headingwrapper = styled.div `

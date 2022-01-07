@@ -22,7 +22,7 @@ const Layout = ({children}) => {
         <UpcomingEvents/>
         <CountriesCovered/>
         <Testimonials/>
-        {/* <Footer/> */}
+        <Footer/>
         </>
         )
 }
