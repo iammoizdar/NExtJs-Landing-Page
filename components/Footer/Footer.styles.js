@@ -35,12 +35,20 @@ export const ContentWrapper = styled.div `
     span{
       padding-top: 12px;
     }
+ 
   }
   .col-4{
     display: flex;
     flex-direction: column;
     min-height: 161px;
     justify-content: end;
+     @media (max-width: 768px) {
+    justify-content: center;
+  }
+  }
+      @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: baseline;
   }
 `
 

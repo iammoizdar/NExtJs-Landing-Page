@@ -11,7 +11,12 @@ import UserIcon3 from "../../assets/images/Usericon3.png"
 import Carousel from 'react-elastic-carousel'
 import { Item } from '../Carousel/CarouselSlider.styles'
 
-
+const TestimonialbreakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 1, itemsToScroll: 1 },
+  { width: 768, itemsToShow: 2 },
+  { width: 900, itemsToShow: 3 }
+];
 export function TestimonialsCard(testInfo) {
 return (
 <TestCard>
@@ -39,7 +44,7 @@ return (
         <TopHeading textTitle="Testimonial"
             description="Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos." />
         <div className="TestCardHolder">
-            <Carousel itemsToShow={3} showArrows={false} >
+            <Carousel itemsToShow={3} showArrows={false} breakPoints={TestimonialbreakPoints}>
                 <Item>
                     <TestimonialsCard url={UserIcon1} name="Harrison Phillips" job="Reporter"
                         description="Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et. Voluptatem id ea dicta inventore et quo impedit repudiandae. Qui officia aperiam " />

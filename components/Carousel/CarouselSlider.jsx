@@ -7,11 +7,19 @@ import Image2 from "../../assets/images/slider2img.png"
 import Image3 from "../../assets/images/slider3img.png"
 import Image4 from "../../assets/images/slider4img.png"
 import { CarouselWrapper } from './CarouselSlider.styles'
+
+
+export const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+  { width: 768, itemsToShow: 3 },
+  { width: 1200, itemsToShow: 4 }
+];
 const CarouselSlider = () => {
 return (
 <CarouselWrapper>
 <h2>Featured Universities</h2>
-    <Carousel itemsToShow={4} showArrows={false} enableAutoPlay={true}>
+    <Carousel itemsToShow={4} showArrows={false} enableAutoPlay={true}breakPoints={breakPoints}>
         <Item>
             <Image src={Image1} alt='' />
         </Item>

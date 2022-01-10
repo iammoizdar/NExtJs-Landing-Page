@@ -31,6 +31,13 @@ a {
 
 .rec.rec-pagination {
   gap: 12px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .rec.rec-pagination {
+    display: none;
+  }
 }
 
 .rec.rec-dot {

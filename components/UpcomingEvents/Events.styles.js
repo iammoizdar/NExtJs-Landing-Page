@@ -31,10 +31,10 @@ p {
 export const CardElement = styled.div `
     display: flex;
     flex-direction: column;
-    width: 540px;
+    max-width: 540px;
     min-height: 308px;
     grid-gap: 14px;
-
+    padding-right: 12px;
     p{
         color: #37474F;
         font-size: 15px;

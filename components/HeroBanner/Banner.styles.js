@@ -10,12 +10,18 @@ export const BannerImage = styled.div `
    display: flex;
    width: 40%;
    justify-content:end;
+    @media (max-width: 1024px) {
+    display: none;
+  }
 `
 export const BannerHeading = styled.div `
   
     h1{
         font-size: var(--font-size-xl);
         font-weight: 800;
+         @media (max-width: 468px) {
+    font-size: 3rem;
+  }
     }
     p{
         font-size: var(--font-size-p);
@@ -28,6 +34,9 @@ export const BannerWrapper = styled.div `
   justify-content: center;
 width: 60%;
 align-items: center;
+@media (max-width: 1024px) {
+    width: 100%;
+  }
 `
 export const Headingwrapper = styled.div `
  grid-gap: 30px;
@@ -42,4 +51,8 @@ export const Headingwrapper = styled.div `
   gap:14px;
 
  }
+ @media (max-width: 1024px) {
+    align-items: center;
+    text-align: center;
+  }
 `

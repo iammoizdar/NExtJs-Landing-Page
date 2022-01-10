@@ -20,13 +20,19 @@ export const NavbarWrapper = styled.div `
       color: var(--text-color-brown);
       font-weight: 500;
     }
-     @media (max-width: 1024px) {
+     @media (max-width: 768px) {
     display: none;
+  }
+   @media (max-width: 1100px) {
+    gap: 30px;
+  }
+   @media (max-width: 900px) {
+    gap: 16px;
   }
   }
   .hamburger-menu{
     display: none;
-    @media (max-width: 1024px) {
+    @media (max-width: 768px) {
     display: block;
   }
   }
@@ -42,6 +48,10 @@ export const CTA = styled.a `
   &:hover{
     background: var(--secondary);
     color: #fff
+  }
+    @media (max-width: 768px) {
+    color: #fff;
+    background: #000;
   }
 
 `
