@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { StyledLink } from '../Navbar/Navbar.styles';
-import { CTA } from '../Navbar/Navbar.styles';
+import Modal from '../Atoms/Modal'
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -21,7 +21,7 @@ const Ul = styled.ul`
     right: 0;
     height: 100vh;
     width: 200px;
-    z-index: 1;
+    /* z-index: 1; */
     align-items: center;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
@@ -62,7 +62,7 @@ const RightNav = ({ open }) => {
                 </li>
                 <li>
                     <Link href="/" passHref>
-                    <CTA>Apply</CTA>
+                    <Modal/>
                     </Link>
                 </li>
     </Ul>

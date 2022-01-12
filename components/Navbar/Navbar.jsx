@@ -8,7 +8,7 @@ import { NavbarWrapper } from './Navbar.styles'
 import { CTA } from './Navbar.styles'
 import { StyledLink } from './Navbar.styles'
 import Burger from '../Nav/Burger'
-import RightNav from '../Nav/RightNav'
+import Modal from '../Atoms/Modal'
 const Navbar = () => {
 return (
 <StyledNavBar>
@@ -45,7 +45,8 @@ return (
                 </li>
                 <li>
                     <Link href="/" passHref>
-                    <CTA>Apply</CTA>
+                    {/* <CTA>Apply</CTA> */}
+                    <Modal/>
                     </Link>
                 </li>
             </ul>

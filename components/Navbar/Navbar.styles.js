@@ -45,6 +45,7 @@ export const CTA = styled.a `
   color: var(--text-color-brown);
   font-weight: 500;
   transition: 0.3s ease;
+  cursor: pointer;
   &:hover{
     background: var(--secondary);
     color: #fff

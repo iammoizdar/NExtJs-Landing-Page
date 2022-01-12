@@ -16,9 +16,6 @@ export const Button = styled.a `
     background: #4b47cf;
     
   }
-  @media (max-width: 768px) {
-    background-color: #00000;
-    color: #fff;
-  }
+
   
 `
