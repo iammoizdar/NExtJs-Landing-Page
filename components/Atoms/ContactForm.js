@@ -1,8 +1,7 @@
 
 import React, { useState} from "react";
 import { dbs } from "../../firebase";
-// import { Form } from "./ContactForm.Styles";
-// import { Button } from "./Button/Button.styles";
+
 
 const ContactForm = () => {
   const [name, setName] = useState("");

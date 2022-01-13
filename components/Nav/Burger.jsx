@@ -50,7 +50,10 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
+      <div>
+
       <RightNav open={open}/>
+      </div>
     </>
   )
 }

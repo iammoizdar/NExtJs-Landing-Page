@@ -12,7 +12,7 @@ const NewCards = (Prop) => {
   textAlign: "left"
 }
     return (
-         <motion.button
+         <motion.div
     whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}
     style={styles}
@@ -27,7 +27,7 @@ const NewCards = (Prop) => {
             </Details>
         </NewsCard>
 
-  </motion.button>
+  </motion.div>
     )
 }
 

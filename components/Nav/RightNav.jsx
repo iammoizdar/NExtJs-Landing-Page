@@ -61,9 +61,9 @@ const RightNav = ({ open }) => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/" passHref>
+                
                     <Modal/>
-                    </Link>
+                
                 </li>
     </Ul>
   )

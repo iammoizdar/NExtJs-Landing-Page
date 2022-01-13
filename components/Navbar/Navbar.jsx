@@ -44,10 +44,9 @@ return (
                     </Link>
                 </li>
                 <li>
-                    <Link href="/" passHref>
-                    {/* <CTA>Apply</CTA> */}
+              
                     <Modal/>
-                    </Link>
+              
                 </li>
             </ul>
                 <div className="hamburger-menu">

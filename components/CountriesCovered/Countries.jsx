@@ -2,10 +2,8 @@ import React from 'react'
 import CountryPic1 from "../../assets/images/Country1.png"
 import CountryPic2 from "../../assets/images/Country2.png"
 import CountryPic3 from "../../assets/images/Country3.png"
-import { CountriesWrapper } from './Countries.styles'
+import { CountriesWrapper,CountryDetails,CountryCard } from './Countries.styles'
 import { Thumbnail } from '../NewsSection/News.styles'
-import { CountryCard } from './Countries.styles'
-import { CountryDetails } from './Countries.styles'
 import { TopHeading } from '../NewsSection/News'
 import { motion } from "framer-motion"
 import Image from 'next/image'
@@ -20,11 +18,7 @@ export const CountryCards =(Info)=>{
 }
   return(
 
-     <motion.button
-    whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}
-    style={styles}
-  >
+   
     <CountryCard >
             <Thumbnail>
                 <Image src={Info.url}alt='thumbnail'/>
@@ -35,7 +29,7 @@ export const CountryCards =(Info)=>{
             </CountryDetails>
         </CountryCard>
   
-  </motion.button>
+  
   )
   }
 

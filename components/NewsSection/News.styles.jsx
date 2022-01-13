@@ -25,10 +25,10 @@ export const Details = styled.div`
         font-size: 14px;
         font-weight: 600;
     }
-    {
+    
         font-size: 20px;
         color: #252525;
-    }
+    
 `
 export const NewsCardWrapper = styled.div`
     display: flex;
