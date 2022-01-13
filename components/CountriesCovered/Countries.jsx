@@ -18,7 +18,11 @@ export const CountryCards =(Info)=>{
 }
   return(
 
-   
+     <motion.div
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+    style={styles}
+  >
     <CountryCard >
             <Thumbnail>
                 <Image src={Info.url}alt='thumbnail'/>
@@ -29,7 +33,7 @@ export const CountryCards =(Info)=>{
             </CountryDetails>
         </CountryCard>
   
-  
+  </motion.div>
   )
   }
 
